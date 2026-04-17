@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f5f8fb;
+  color: #071a2e;
+}
+
+body::selection {
+  background: rgba(18, 125, 122, 0.2);
+}
+
+.container-shell {
+  @apply mx-auto max-w-7xl px-6 lg:px-8;
+}
+
+.panel {
+  @apply rounded-[32px] border border-slate-200 bg-white shadow-premium;
+}
+
+.hero-grid {
+  background-size: 60px 60px;
+}
